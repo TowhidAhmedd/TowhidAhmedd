@@ -41,7 +41,7 @@ I am open to remote opportunities and excited to contribute to real-world AI/ML 
 
 ## ✍️ Developer Mindset
 I believe in learning by building real-world projects and continuously improving through hands-on experience. I focus on understanding core concepts deeply rather than just using libraries. My goal is to develop production-ready AI systems that solve real problems, with clean, scalable, and maintainable code.
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+![](https://camo.githubusercontent.com/6d596d994c1abc4c2186a8a8ff933496a1f4fa1fa2f59e5fbcdb91e61523f716/68747470733a2f2f71756f7465732d6769746875622d726561646d652e76657263656c2e6170702f6170693f747970653d686f72697a6f6e74616c267468656d653d7261646963616c)
 
 # 🔝 Top Contributions
 ## 🔹 SMS Spam Detection System (Machine Learning, NLP)

@@ -31,13 +31,72 @@ I am open to remote opportunities and excited to contribute to real-world AI/ML 
 ![](https://streak-stats.demolab.com/?user=TowhidAhmedd&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=TowhidAhmedd&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
+A showcase of my GitHub activity, consistency, and contributions across various AI/ML and software development projects.
 ![](https://github-profile-trophy.vercel.app/?username=TowhidAhmedd&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
+## ✍️ Developer Mindset
+A glimpse of inspiration and thoughts that reflect my passion for coding, problem-solving, and continuous learning.
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 🔝 Top Contributed Repo
+# 🔝 Top Contributions
+## 🔹 SMS Spam Detection System (Machine Learning, NLP)
+- Built an end-to-end machine learning model to classify SMS messages as Spam or Ham.
+- Applied text preprocessing techniques: tokenization, stopword removal, and TF-IDF vectorization.
+- Trained models including Logistic Regression, Naive Bayes, and SVM.
+- Achieved **94% accuracy** with optimized feature engineering.
+- Developed an interactive web app using Streamlit.
+
+🔧 Tech Stack: Python, Scikit-learn, NLTK, Pandas, NumPy, Streamlit  
+  🔗 GitHub: https://github.com/TowhidAhmedd/SMS_Spam_Classifier-  
+  🔗 Live Demo: https://sms-spam-classifier-jz35.onrender.com  
+
+## 🔹 Production-Ready MLOps Pipeline with ETL
+- Built an end-to-end MLOps pipeline that simulates real-world production machine learning workflows.
+- Designed and implemented an ETL pipeline for extracting, transforming, and loading raw data into a clean training-ready format.
+- Developed a modular machine learning pipeline including data preprocessing, feature engineering, model training, and evaluation.
+- Structured the project in a production-ready format to ensure scalability, reproducibility, and maintainability.
+- Focused on MLOps best practices such as pipeline automation and separation of concerns between data, model, and training logic.  
+
+🔧 Tech Stack: Python, Pandas, NumPy, Scikit-learn, Machine Learning Pipelines  
+🔗 GitHub: https://github.com/TowhidAhmedd/Production-Ready-MLOps-Pipeline-with-ETL  
+
+
+## 🔹 Potato Disease Classification using Deep Learning (CNN)
+- Built a deep learning-based image classification system to detect potato leaf diseases such as Early Blight, Late Blight, and Healthy leaves.
+- Designed and trained a Convolutional Neural Network (CNN) model for automatic feature extraction from leaf images.
+- Applied image preprocessing techniques such as resizing, normalization, and data augmentation to improve model generalization.
+- Trained the model on labeled plant leaf images to accurately classify disease types.
+- Focused on building an end-to-end pipeline for real-world agricultural disease detection use cases.  
+
+🔧 Tech Stack: Python, TensorFlow/Keras, CNN, OpenCV, NumPy, Matplotlib  
+🔗 GitHub: https://github.com/TowhidAhmedd/Potato-Disease-Classification-using-Deep-Learning  
+🔗 Live Demo: https://potato-disease-classification-using-deep-m67m.onrender.com  
+
+
+## 🔹 Movie Recommendation System (Machine Learning, NLP)
+Built a content-based movie recommendation system that suggests similar movies based on user input.
+Applied NLP techniques to process movie metadata such as genres, cast, keywords, and descriptions.
+Converted text data into feature vectors using TF-IDF / CountVectorizer for similarity computation.
+Used cosine similarity to measure relationships between movies and generate personalized recommendations.
+Designed a simple interactive system to help users discover relevant movies efficiently.  
+
+🔧 Tech Stack: Python, Pandas, Scikit-learn, NLP, Cosine Similarity, Streamlit  
+🔗 GitHub: https://github.com/TowhidAhmedd/Movie-Recommendation-System  
+🔗 Live Demo: https://movie-recommendation-system-cc8s.onrender.com  
+
+
+## 🔹 End-to-End Medical Chatbot (NLP / Generative AI) (Running)
+Built an end-to-end medical chatbot to provide automated responses to health-related user queries using NLP techniques.
+Processed and cleaned medical text data using tokenization, stopword removal, and text normalization.
+Implemented intent understanding and response generation using NLP / transformer-based concepts.
+Designed a conversational interface to simulate real-time interaction between users and the chatbot.
+Focused on building a scalable AI assistant that can assist users with basic medical guidance and information.  
+
+🔧 Tech Stack: Python, NLP, Transformers (or LLM concepts), Scikit-learn, Streamlit, Pandas  
+🔗 GitHub:  
+🔗 Live Demo:  
+
 ![](https://github-contributor-stats.vercel.app/api?username=TowhidAhmedd&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---

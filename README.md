@@ -1,7 +1,7 @@
 # Hi, I am Towhid Ahmed 👋
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/towhid_ai_resize.jpg" width="300" height="300"/>
+  <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/towhid_ai.jpg" width="600" height="600"/>
 </p>
 
 ## AI/ML Engineer | Machine Learning | NLP & Generative AI | Python | DSA (Java) | Open to Remote Opportunities

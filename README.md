@@ -101,9 +101,6 @@ Focused on building a scalable AI assistant that can assist users with basic med
 🔗 GitHub:  
 🔗 Live Demo:  
 
-![](https://github-contributor-stats.vercel.app/api?username=TowhidAhmedd&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
----
-[![](https://komarev.com/ghpvc/?username=TowhidAhmedd&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

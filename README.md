@@ -32,11 +32,15 @@ I am open to remote opportunities and excited to contribute to real-world AI/ML 
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=TowhidAhmedd&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## 🏆 GitHub Achievements
-A showcase of my GitHub activity, consistency, and contributions across various AI/ML and software development projects.
+- Built multiple end-to-end Machine Learning, Deep Learning, and NLP projects.
+- Developed production-oriented MLOps pipeline with ETL workflows and modular architecture.
+- Consistently worked on AI/ML projects including classification, recommendation systems, and chatbots.
+- Focused on writing clean, scalable, and reusable code for real-world applications.
+- Actively improving skills in Machine Learning, Deep Learning, NLP, and Gen Ai.
 ![](https://github-profile-trophy.vercel.app/?username=TowhidAhmedd&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
 ## ✍️ Developer Mindset
-A glimpse of inspiration and thoughts that reflect my passion for coding, problem-solving, and continuous learning.
+I believe in learning by building real-world projects and continuously improving through hands-on experience. I focus on understanding core concepts deeply rather than just using libraries. My goal is to develop production-ready AI systems that solve real problems, with clean, scalable, and maintainable code.
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 # 🔝 Top Contributions

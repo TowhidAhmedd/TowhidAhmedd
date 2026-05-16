@@ -53,64 +53,107 @@ I am open to remote opportunities and excited to contribute to real-world AI/ML 
 I believe in learning by building real-world projects and continuously improving through hands-on experience. I focus on understanding core concepts deeply rather than just using libraries. My goal is to develop production-ready AI systems that solve real problems, with clean, scalable, and maintainable code.
 ![](https://camo.githubusercontent.com/6d596d994c1abc4c2186a8a8ff933496a1f4fa1fa2f59e5fbcdb91e61523f716/68747470733a2f2f71756f7465732d6769746875622d726561646d652e76657263656c2e6170702f6170693f747970653d686f72697a6f6e74616c267468656d653d7261646963616c)
 
+
 # 🔝 Top Contributions
-## 🔹 SMS Spam Detection System (Machine Learning, NLP)
-- Built an end-to-end machine learning model to classify SMS messages as Spam or Ham.
-- Applied text preprocessing techniques: tokenization, stopword removal, and TF-IDF vectorization.
-- Trained models including Logistic Regression, Naive Bayes, and SVM.
-- Achieved **94% accuracy** with optimized feature engineering.
-- Developed an interactive web app using Streamlit.
+## 🔹 End-to-End MLOps Email Spam Detection System — scikit-learn | MLflow | DagsHub | FastAPI |  PostgreSQL | Alembic | Prometheus | Docker | GitHub Actions (CI/CD) | Pytest	
+● Built a production-grade email spam detection system with automated retraining, real-time monitoring, and CI/CD deployment on Render.
 
-🔧 Tech Stack: Python, Scikit-learn, NLTK, Pandas, NumPy, Streamlit  
-  🔗 GitHub: https://github.com/TowhidAhmedd/SMS_Spam_Classifier-  
-  🔗 Live Demo: https://sms-spam-classifier-jz35.onrender.com  
+● Developed a TF-IDF + Logistic Regression classifier achieving 98.5% accuracy and 96% F1-score on the SMS Spam
+   Collection dataset.
+   
+● Implemented full MLOps pipeline with MLflow and DagsHub for experiment tracking, model registry, and versioning.
 
-## 🔹 Production-Ready MLOps Pipeline with ETL
-- Built an end-to-end MLOps pipeline that simulates real-world production machine learning workflows.
-- Designed and implemented an ETL pipeline for extracting, transforming, and loading raw data into a clean training-ready format.
-- Developed a modular machine learning pipeline including data preprocessing, feature engineering, model training, and evaluation.
-- Structured the project in a production-ready format to ensure scalability, reproducibility, and maintainability.
-- Focused on MLOps best practices such as pipeline automation and separation of concerns between data, model, and training logic.  
+● Designed a feedback-driven retraining system where user corrections stored in PostgreSQL trigger automated model
+   retraining.
+   
+● Built RESTful APIs with FastAPI supporting single and batch predictions (up to 50 inputs) with <5ms latency;
+   integrated Prometheus for metrics monitoring and Sentry for error tracking.
+   
+● Containerized with Docker and deployed via GitHub Actions CI/CD pipeline (lint, test, build, deploy) on Render.
 
-🔧 Tech Stack: Python, Pandas, NumPy, Scikit-learn, Machine Learning Pipelines  
-🔗 GitHub: https://github.com/TowhidAhmedd/Production-Ready-MLOps-Pipeline-with-ETL  
+🔗 GitHub: https://github.com/TowhidAhmedd/SMS_Spam_Classifier_MLOPS
+🔗 Live Demo: https://sms-spam-classifier-mlops.onrender.com
 
 
-## 🔹 Potato Disease Classification using Deep Learning (CNN)
-- Built a deep learning-based image classification system to detect potato leaf diseases such as Early Blight, Late Blight, and Healthy leaves.
-- Designed and trained a Convolutional Neural Network (CNN) model for automatic feature extraction from leaf images.
-- Applied image preprocessing techniques such as resizing, normalization, and data augmentation to improve model generalization.
-- Trained the model on labeled plant leaf images to accurately classify disease types.
-- Focused on building an end-to-end pipeline for real-world agricultural disease detection use cases.  
+## 🔹 Potato Disease Classification — Python | TensorFlow | Keras | CNN | OpenCV | NumPy | Streamlit
+● Built a CNN classifier with TensorFlow & Keras achieving 97.8% test accuracy, trained with augmentation, conv/pooling layers, Adam optimizer, 
+  and cross-entropy loss.
+  
+● Built an optimized data pipeline with resizing, batching, and cache()/prefetch() functions; sourced and
+   preprocessed the Kaggle PlantDisease dataset into structured batches.
+   
+● Deployed a live Streamlit app on Render for real-time potato leaf disease detection.
 
-🔧 Tech Stack: Python, TensorFlow/Keras, CNN, OpenCV, NumPy, Matplotlib  
-🔗 GitHub: https://github.com/TowhidAhmedd/Potato-Disease-Classification-using-Deep-Learning  
-🔗 Live Demo: https://potato-disease-classification-using-deep-m67m.onrender.com  
+🔗 GitHub: https://github.com/TowhidAhmedd/Potato-Disease-Classification-using-Deep-Learning
+🔗 Live Demo: https://potato-disease-classification-using-deep-m67m.onrender.com
+
+## 🔹 Movie Recommendation System (ML+NLP) — Python, Scikit-learn, Pandas, NumPy, TF-IDF, Cosine Similarity, Streamlit, TMDB API								
+● Built a content-based movie recommendation system using NLP to analyze movie metadata and deliver personalized top-10 results.
+
+● Applied TF-IDF vectorization and cosine similarity to measure content similarity between movies for accurate suggestions.
+
+● Integrated the TMDB API to fetch real-time movie titles, posters, and metadata for a dynamic experience.
+
+● Deployed the application on Render with public cloud access and an interactive sidebar interface.
+
+🔗 GitHub: https://github.com/TowhidAhmedd/Movie-Recommendation-System
+🔗 Live Demo: https://movie-recommendation-system-cc8s.onrender.com
 
 
-## 🔹 Movie Recommendation System (Machine Learning, NLP)
-Built a content-based movie recommendation system that suggests similar movies based on user input.
-Applied NLP techniques to process movie metadata such as genres, cast, keywords, and descriptions.
-Converted text data into feature vectors using TF-IDF / CountVectorizer for similarity computation.
-Used cosine similarity to measure relationships between movies and generate personalized recommendations.
-Designed a simple interactive system to help users discover relevant movies efficiently.  
+## 🔹 Advanced RAG-Based ML Research Assistant — Weaviate | Sentence Transformers | OpenAI API | Groq | Streamlit | Render											
+● Built an end-to-end RAG pipeline for semantic search and Q&A over arXiv ML research papers using Weaviate vector database and OpenAI/Groq
+  LLMs.
+  
+● Implemented multiple document chunking strategies (fixed-size, sentence-based, semantic) with sentence-transformer
+   embeddings for high-quality vector indexing.
+   
+● Improved retrieval accuracy using cross-encoder re-ranking and evaluated system performance with 5 key metrics — 
+   Precision, Recall, MRR, NDCG, and F1 Score.
+   
+● Deployed the Streamlit application on Render, enabling public cloud access with a production-ready deployment setup. 
 
-🔧 Tech Stack: Python, Pandas, Scikit-learn, NLP, Cosine Similarity, Streamlit  
-🔗 GitHub: https://github.com/TowhidAhmedd/Movie-Recommendation-System  
-🔗 Live Demo: https://movie-recommendation-system-cc8s.onrender.com  
+🔗 GitHub: https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant
+🔗 Live Demo: https://advanced-rag-ml-research-assistant-1.onrender.com
 
 
-## 🔹 End-to-End Medical Chatbot (NLP / Generative AI) (Running)
-Built an end-to-end medical chatbot to provide automated responses to health-related user queries using NLP techniques.
-Processed and cleaned medical text data using tokenization, stopword removal, and text normalization.
-Implemented intent understanding and response generation using NLP / transformer-based concepts.
-Designed a conversational interface to simulate real-time interaction between users and the chatbot.
-Focused on building a scalable AI assistant that can assist users with basic medical guidance and information.  
+## 🔹 Multi-Agent AI System — Python | LangChain | Groq | Tavily API | BeautifulSoup | Streamlit 
+● Built a multi-agent AI pipeline that autonomously searches the web, scrapes content, generates structured research reports, and self- 
+  critiques output quality using LangChain and Groq LLM.
+  
+● Designed modular agents — Search Agent (Tavily API), Reader Agent (BeautifulSoup scraping), Writer Chain
+   (structured report generation), and Critic Chain (quality scoring and feedback).
+   
+● Developed an end-to-end CLI pipeline and an interactive Streamlit UI for exploring the full research workflow on any
+   user-defined topic.
 
-🔧 Tech Stack: Python, NLP, Transformers (or LLM concepts), Scikit-learn, Streamlit, Pandas  
-🔗 GitHub:  
-🔗 Live Demo:  
+🔗 GitHub: https://github.com/TowhidAhmedd/Multi-Agent-AI-Research-System-
+🔗 Live Demo: https://multi-agent-ai-research-system-1.onrender.com
 
+
+## 🔹 Medical Assistant — LLM-Powered Chatbot  Python · FastAPI · LangChain · ChromaDB · Groq · HuggingFace · Tavily API
+● Architected a dual-retrieval RAG pipeline combining local ChromaDB (MMR) and Tavily web search scoped to authoritative medical sources (NIH, 
+  WHO, Mayo Clinic), with automated emergency symptom escalation
+  
+● Engineered a stateful LangChain inference pipeline with sliding-window conversation memory (k=8), HuggingFace
+  embeddings, and per-response source attribution grounded in retrieved context.
+  
+● Exposed a multi-modal document ingestion system via REST API, UI upload, and folder watch — chunking and indexing PDFs/TXTs into a persistent 
+  vector store at runtime
+
+🔗 GitHub: https://github.com/TowhidAhmedd/Medical_AI_Chatbot
+🔗 Live Demo: https://medical-ai-chatbot-xjto.onrender.com
+
+
+## 🔹 AI IDE — Multi-Agent Coding Assistant | Python · FastAPI · Groq · FAISS · React · Render
+● Built a Cursor-like AI coding assistant with a multi-agent backend (Planner, Coder, Debugger, Researcher) using Groq's llama-3.3-70b, real-
+  time SSE token streaming, and a Monaco Editor frontend — deployed end-to-end on Render.
+  
+● Engineered a RAG pipeline (FAISS + SentenceTransformers) for context-aware codebase memory and a 11-endpoint     REST API covering the full coding workflow — generation, debugging, refactoring, and planning.
+
+● Integrated Tavily web search into the Research Agent for real-time, AI-synthesized answers grounded in live results
+
+🔗 GitHub: https://github.com/TowhidAhmedd/AI_IDE
+🔗 Live Demo: https://ai-ide-frontend2.onrender.com
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

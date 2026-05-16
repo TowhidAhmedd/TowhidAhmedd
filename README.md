@@ -20,6 +20,13 @@ I have worked on multiple projects in machine learning and deep learning, includ
 I am open to remote opportunities and excited to contribute to real-world AI/ML projects and grow as a software engineer.
 
 
+<p align="center">
+  <a href="https://towhidahmedcom.vercel.app/" target="_blank">
+    <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/portpolio_pic.jpg" width="600" />
+  </a>
+</p>
+
+
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/towhid-ahmed-5ba096354) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/towhid744) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mdt169068@gmail.com) 

@@ -72,6 +72,7 @@ I believe in learning by building real-world projects and continuously improving
 ● Containerized with Docker and deployed via GitHub Actions CI/CD pipeline (lint, test, build, deploy) on Render.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/SMS_Spam_Classifier_MLOPS
+
 🔗 Live Demo: https://sms-spam-classifier-mlops.onrender.com
 
 
@@ -85,6 +86,7 @@ I believe in learning by building real-world projects and continuously improving
 ● Deployed a live Streamlit app on Render for real-time potato leaf disease detection.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Potato-Disease-Classification-using-Deep-Learning
+
 🔗 Live Demo: https://potato-disease-classification-using-deep-m67m.onrender.com
 
 ## 🔹 Movie Recommendation System (ML+NLP) — Python, Scikit-learn, Pandas, NumPy, TF-IDF, Cosine Similarity, Streamlit, TMDB API								
@@ -97,6 +99,7 @@ I believe in learning by building real-world projects and continuously improving
 ● Deployed the application on Render with public cloud access and an interactive sidebar interface.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Movie-Recommendation-System
+
 🔗 Live Demo: https://movie-recommendation-system-cc8s.onrender.com
 
 
@@ -113,6 +116,7 @@ I believe in learning by building real-world projects and continuously improving
 ● Deployed the Streamlit application on Render, enabling public cloud access with a production-ready deployment setup. 
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant
+
 🔗 Live Demo: https://advanced-rag-ml-research-assistant-1.onrender.com
 
 
@@ -127,6 +131,7 @@ I believe in learning by building real-world projects and continuously improving
    user-defined topic.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Multi-Agent-AI-Research-System-
+
 🔗 Live Demo: https://multi-agent-ai-research-system-1.onrender.com
 
 
@@ -141,6 +146,7 @@ I believe in learning by building real-world projects and continuously improving
   vector store at runtime
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Medical_AI_Chatbot
+
 🔗 Live Demo: https://medical-ai-chatbot-xjto.onrender.com
 
 
@@ -153,6 +159,7 @@ I believe in learning by building real-world projects and continuously improving
 ● Integrated Tavily web search into the Research Agent for real-time, AI-synthesized answers grounded in live results
 
 🔗 GitHub: https://github.com/TowhidAhmedd/AI_IDE
+
 🔗 Live Demo: https://ai-ide-frontend2.onrender.com
 
 

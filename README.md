@@ -20,10 +20,31 @@ I have worked on multiple projects in machine learning and deep learning, includ
 I am open to remote opportunities and excited to contribute to real-world AI/ML projects and grow as a software engineer.
 
 
+<!-- <p align="center">
+  <a href="https://towhidahmedcom.vercel.app/" target="_blank">
+    <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/portpolio_pic.png" width="600" />
+  </a>
+</p> -->
+
+
 <p align="center">
   <a href="https://towhidahmedcom.vercel.app/" target="_blank">
-    <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/portpolio_pic.jpg" width="600" />
+    <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/portpolio_pic.png" width="600" />
   </a>
+</p>
+
+<p align="center">
+  <b>AI/ML Engineer | Generative AI | Machine Learning | NLP</b>
+</p>
+
+<p align="center">
+  <a href="https://towhidahmedcom.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Live%20Portfolio-Explore%20Now-0A66C2?style=for-the-badge&logo=vercel" />
+  </a>
+</p>
+
+<p align="center">
+  🚀 Available for Remote AI/ML Roles | Open to Collaboration
 </p>
 
 

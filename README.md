@@ -11,13 +11,7 @@
 ---
 
 ## 👨‍💻 About Me
-I am an aspiring AI/ML Engineer with a strong foundation in Machine Learning, Deep Learning, Natural Language Processing (NLP), and Generative AI. I also have solid problem-solving skills in Data Structures and Algorithms using Java.
-
-I focus on building real-world AI projects using Python and continuously improving my skills in model development, training, and deployment.
-
-I have worked on multiple projects in machine learning and deep learning, including classification and NLP-based systems. I am currently exploring advanced topics like transformer models and MLOps.
-
-I am open to remote opportunities and excited to contribute to real-world AI/ML projects and grow as a software engineer.
+I am Towhid Ahmed, a Generative AI Engineer who independently architects and deploys production-grade intelligent systems. I specialize in building end-to-end LLM applications with a focus on multi-agent orchestration, advanced Retrieval-Augmented Generation (RAG), and LLMOps—from concept to deployment. My approach centers on solving real-world problems through scalable AI: designing sophisticated agent workflows using LangGraph, implementing retrieval systems with vector databases and cross-encoder re-ranking, and ensuring production reliability through observability, testing, and guardrails. I'm actively seeking opportunities to contribute to innovative AI teams where I can help build and ship scalable, intelligent products that make a tangible impact. I thrive in collaborative, fast-paced environments and bring strong systems thinking, 400+ DSA problems solved, and a proven track record of turning ambitious ideas into deployed systems. 
 
 
 <!-- <p align="center">
@@ -83,113 +77,60 @@ I believe in learning by building real-world projects and continuously improving
 ![](https://camo.githubusercontent.com/6d596d994c1abc4c2186a8a8ff933496a1f4fa1fa2f59e5fbcdb91e61523f716/68747470733a2f2f71756f7465732d6769746875622d726561646d652e76657263656c2e6170702f6170693f747970653d686f72697a6f6e74616c267468656d653d7261646963616c)
 
 
-# 🔝 Top Contributions
-## 🔹 End-to-End MLOps Email Spam Detection System — scikit-learn | MLflow | DagsHub | FastAPI |  PostgreSQL | Alembic | Prometheus | Docker | GitHub Actions (CI/CD) | Pytest	
-● Built a production-grade email spam detection system with automated retraining, real-time monitoring, and CI/CD deployment on Render.
+# 🔝 Featured Projects
 
-● Developed a TF-IDF + Logistic Regression classifier achieving 98.5% accuracy and 96% F1-score on the SMS Spam
-   Collection dataset.
-   
-● Implemented full MLOps pipeline with MLflow and DagsHub for experiment tracking, model registry, and versioning.
+## 🔹 Multi-Agent AI System — Python, LangGraph, FastAPI, Pinecone, LangSmith, Docker, Render
 
-● Designed a feedback-driven retraining system where user corrections stored in PostgreSQL trigger automated model
-   retraining.
-   
-● Built RESTful APIs with FastAPI supporting single and batch predictions (up to 50 inputs) with <5ms latency;
-   integrated Prometheus for metrics monitoring and Sentry for error tracking.
-   
-● Containerized with Docker and deployed via GitHub Actions CI/CD pipeline (lint, test, build, deploy) on Render.
+● Architected a 4-agent LangGraph workflow (Planner, Retrieval, Search, Synthesizer) with production FastAPI backend (/chat, /upload, /health, /metrics) supporting async-safe execution for reliable cloud deployment. 
+● Built end-to-end RAG pipeline: document ingestion (PDF/TXT/Markdown) → chunking → Pinecone vector retrieval → citation synthesis, integrated with Tavily + DuckDuckGo for grounded, up-to-date responses.
+● Added production observability: LangSmith tracing, structured logging, and in-process latency/error metrics for debugging and workflow evaluation. 
+● Deployed via Docker + Render Blueprint with health checks and optimizations suitable for free-tier, remote-accessible hosting. 
 
-🔗 GitHub: https://github.com/TowhidAhmedd/SMS_Spam_Classifier_MLOPS
+🔗 GitHub: https://github.com/TowhidAhmedd/multi-agent-AI-Orchestrator/tree/main
+🔗 Live Demo: https://multi-agent-ai-system-frontend-with.onrender.com 
 
-🔗 Live Demo: https://sms-spam-classifier-mlops.onrender.com
+## 🔹 Multimodal RAG — Python, FastAPI, Streamlit, Pinecone, Groq, Llama 3.3, Faster-Whisper, RAG, Vector Search, LangSmith, Docker, REST API, Async Programming, Caching
+● Architected production-grade multimodal RAG system (PDF, audio, video) with Faster-Whisper transcription and semantic chunking; implemented two-stage retrieval (Pinecone + Cross-Encoder re-ranking), reducing latency by 60% and improving relevance scores by 25%. 
+● Built async FastAPI backend with Groq LLM integration (3 model options), TTL-based query caching, and structured error handling; achieved <2s P95 latency on cached queries with 100% test pass rate (76 unit tests). 
+● Deployed full-stack application on Render with Docker containerization (FastAPI + Streamlit), automated CI/CD via GitHub, and LangSmith observability for production monitoring. 
 
+🔗 GitHub: https://github.com/TowhidAhmedd/Multimodel-Rag-With-LLMOps/tree/main
 
-## 🔹 Potato Disease Classification — Python | TensorFlow | Keras | CNN | OpenCV | NumPy | Streamlit
-● Built a CNN classifier with TensorFlow & Keras achieving 97.8% test accuracy, trained with augmentation, conv/pooling layers, Adam optimizer, 
-  and cross-entropy loss.
-  
-● Built an optimized data pipeline with resizing, batching, and cache()/prefetch() functions; sourced and
-   preprocessed the Kaggle PlantDisease dataset into structured batches.
-   
-● Deployed a live Streamlit app on Render for real-time potato leaf disease detection.
+## 🔹 Clinical RAG Assistant  —  Python, FastAPI, LangGraph, RAG,  Pinecone, LLM Guardrails, Tavily, Streamlit, LangSmith, Docker, JWT
+● Architected production-grade medical education AI: 4-agent LangGraph workflow (Router → Safety → Retrieval → Answer) with automatic fallback between WEB_ONLY, DOC_ONLY, and HYBRID search modes. 
+● Implemented RAG pipeline: PDF/DOCX/TXT ingestion → BAAI/bge embeddings → Pinecone retrieval → FlashRank re-ranking → page-level citations with domain whitelist (NIH, CDC, WHO, Mayo Clinic). 
+● **Engineered industry-leading 4-layer medical safety system: (1) regex input filter, (2) LLM safety agent, (3) retrieval threshold guard, (4) output regex filter—blocking diagnosis, dosage, and injection attacks.** 
+● Built secure FastAPI backend with JWT auth, API key validation, SlowAPI rate limiting, Pydantic v2 validation, and multipart file enforcement. 
+● Delivered Streamlit frontend with real-time health checks, document management UI, confidence-scored citations, and graceful error handling. 
 
-🔗 GitHub: https://github.com/TowhidAhmedd/Potato-Disease-Classification-using-Deep-Learning
+🔗 GitHub: https://github.com/TowhidAhmedd/Clinical-AI/tree/main
 
-🔗 Live Demo: https://potato-disease-classification-using-deep-m67m.onrender.com
+## 🔹 Advanced RAG System — Python, LangChain, LLM APIs, Vector Database, Streamlit, RAG
+● Designed an LLM-based retrieval system and AI research assistant for semantic document search and QA over ML research papers 
+● Built an end-to-end retrieval-augmented generation pipeline covering PDF ingestion, intelligent chunking, embedding generation, Weaviate vector search, and LLM-based response generation 
+● Designed a modular architecture separating ingestion, retrieval, LLM orchestration, and UI layers with context-grounded responses to improve answer reliability and reduce hallucinations.
 
-## 🔹 Movie Recommendation System (ML+NLP) — Python, Scikit-learn, Pandas, NumPy, TF-IDF, Cosine Similarity, Streamlit, TMDB API								
-● Built a content-based movie recommendation system using NLP to analyze movie metadata and deliver personalized top-10 results.
-
-● Applied TF-IDF vectorization and cosine similarity to measure content similarity between movies for accurate suggestions.
-
-● Integrated the TMDB API to fetch real-time movie titles, posters, and metadata for a dynamic experience.
-
-● Deployed the application on Render with public cloud access and an interactive sidebar interface.
-
-🔗 GitHub: https://github.com/TowhidAhmedd/Movie-Recommendation-System
-
-🔗 Live Demo: https://movie-recommendation-system-cc8s.onrender.com
+🔗 GitHub: https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant/tree/main
 
 
-## 🔹 Advanced RAG-Based ML Research Assistant — Weaviate | Sentence Transformers | OpenAI API | Groq | Streamlit | Render											
-● Built an end-to-end RAG pipeline for semantic search and Q&A over arXiv ML research papers using Weaviate vector database and OpenAI/Groq
-  LLMs.
-  
-● Implemented multiple document chunking strategies (fixed-size, sentence-based, semantic) with sentence-transformer
-   embeddings for high-quality vector indexing.
-   
-● Improved retrieval accuracy using cross-encoder re-ranking and evaluated system performance with 5 key metrics — 
-   Precision, Recall, MRR, NDCG, and F1 Score.
-   
-● Deployed the Streamlit application on Render, enabling public cloud access with a production-ready deployment setup. 
+## 🔹 Autonomous Deep Agent Platform - Python FastAPI LangGraph LangChain Neo4j Pinecone Groq Streamlit Docker
 
-🔗 GitHub: https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant
+● Architected an 8-node LangGraph agent graph with conditional routing, retry loops, and human-in-the-loop checkpoints that autonomously plans, researches, retrieves, executes, and self-verifies answers to complex multi-step goals. 
+● Built world-class hybrid RAG pipeline combining Pinecone semantic vector search with Neo4j graph traversal—extracting entities/relationships via LLM, storing as graph nodes/edges, then fusing both retrieval paths at query time for relationship-aware intelligence.
+● Implemented Verifier Agent scoring answers on accuracy, completeness, relevance, and clarity; detects hallucinations by comparing claims against grounding context and triggers automated retry loops when quality thresholds unmet. 
+● Shipped production infrastructure: multi-stage Docker, Docker Compose orchestrating FastAPI + Streamlit + Neo4j, LangSmith observability, multi-provider LLM support (Groq, OpenAI, Gemini), and 93 passing tests. 
 
-🔗 Live Demo: https://advanced-rag-ml-research-assistant-1.onrender.com
+🔗 GitHub: https://github.com/TowhidAhmedd/agent-deepagent/tree/main
 
 
-## 🔹 Multi-Agent AI System — Python | LangChain | Groq | Tavily API | BeautifulSoup | Streamlit 
-● Built a multi-agent AI pipeline that autonomously searches the web, scrapes content, generates structured research reports, and self- 
-  critiques output quality using LangChain and Groq LLM.
-  
-● Designed modular agents — Search Agent (Tavily API), Reader Agent (BeautifulSoup scraping), Writer Chain
-   (structured report generation), and Critic Chain (quality scoring and feedback).
-   
-● Developed an end-to-end CLI pipeline and an interactive Streamlit UI for exploring the full research workflow on any
-   user-defined topic.
+## 🔹 Human-in-the-Loop AI Email Reply Agent - LangGraph · FastAPI · Groq (LLaMA 3.3-70B) · Gmail API · ChromaDB · Streamlit · Docker
 
-🔗 GitHub: https://github.com/TowhidAhmedd/Multi-Agent-AI-Research-System-
+● Architected a 7-node LangGraph stateful pipeline (fetch → classify → context retrieval → draft → safety review → human approval → send) with hard interrupt/resume mechanism enforcing zero auto-sends—no email leaves without explicit human approval. 
+● Engineered multi-layer HITL safety across three independent enforcement points (routing edge, node-level gate, API validation) so no single failure mode can bypass human control; implemented LLM-powered safety review agent scoring drafts for hallucinations, incorrect promises, sensitive data leakage, and aggressive language. 
+● Built ChromaDB vector memory system retrieving semantically similar past threads, approved drafts, and company knowledge to generate context-aware, personalized replies using cosine similarity search. 
+● Delivered full-stack Streamlit approval dashboard with inline draft editing, one-click approve/reject, risk score display, and agent analytics; deployed via Docker Compose with APScheduler, SQLite persistence, and 80%+ test coverage. 
 
-🔗 Live Demo: https://multi-agent-ai-research-system-1.onrender.com
-
-
-## 🔹 Medical Assistant — LLM-Powered Chatbot  Python · FastAPI · LangChain · ChromaDB · Groq · HuggingFace · Tavily API
-● Architected a dual-retrieval RAG pipeline combining local ChromaDB (MMR) and Tavily web search scoped to authoritative medical sources (NIH, 
-  WHO, Mayo Clinic), with automated emergency symptom escalation
-  
-● Engineered a stateful LangChain inference pipeline with sliding-window conversation memory (k=8), HuggingFace
-  embeddings, and per-response source attribution grounded in retrieved context.
-  
-● Exposed a multi-modal document ingestion system via REST API, UI upload, and folder watch — chunking and indexing PDFs/TXTs into a persistent 
-  vector store at runtime
-
-🔗 GitHub: https://github.com/TowhidAhmedd/Medical_AI_Chatbot
-
-🔗 Live Demo: https://medical-ai-chatbot-xjto.onrender.com
-
-
-## 🔹 AI IDE — Multi-Agent Coding Assistant | Python · FastAPI · Groq · FAISS · React · Render
-● Built a Cursor-like AI coding assistant with a multi-agent backend (Planner, Coder, Debugger, Researcher) using Groq's llama-3.3-70b, real-
-  time SSE token streaming, and a Monaco Editor frontend — deployed end-to-end on Render.
-  
-● Engineered a RAG pipeline (FAISS + SentenceTransformers) for context-aware codebase memory and a 11-endpoint     REST API covering the full coding workflow — generation, debugging, refactoring, and planning.
-
-● Integrated Tavily web search into the Research Agent for real-time, AI-synthesized answers grounded in live results
-
-🔗 GitHub: https://github.com/TowhidAhmedd/AI_IDE
-
-🔗 Live Demo: https://ai-ide-frontend2.onrender.com
+🔗 GitHub: https://github.com/TowhidAhmedd/agent-email-replay/tree/main
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

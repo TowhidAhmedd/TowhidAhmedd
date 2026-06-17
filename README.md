@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/towhid_ai.jpg" width="600" height="600"/>
 </p>
 
-## 🧑‍💻 AI/ML Engineer | Machine Learning | NLP & Generative AI | Python | DSA (Java) | Open to Remote Opportunities
+## 🧑‍💻  Generative AI Engineer | Agentic AI & LLMOps | Advanced RAG Systems | LLM Applications | Open to Remote Opportunities
 
 
 

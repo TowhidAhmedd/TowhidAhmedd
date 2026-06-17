@@ -81,33 +81,50 @@ I believe in learning by building real-world projects and continuously improving
 
 ## 🔹 Multi-Agent AI System — Python, LangGraph, FastAPI, Pinecone, LangSmith, Docker, Render
 
-● Architected a 4-agent LangGraph workflow (Planner, Retrieval, Search, Synthesizer) with production FastAPI backend (/chat, /upload, /health, /metrics) supporting async-safe execution for reliable cloud deployment. 
+● Architected a 4-agent LangGraph workflow (Planner, Retrieval, Search, Synthesizer) with production FastAPI backend (/chat, /upload, /health, /metrics) supporting async-safe execution for reliable cloud deployment.
+
 ● Built end-to-end RAG pipeline: document ingestion (PDF/TXT/Markdown) → chunking → Pinecone vector retrieval → citation synthesis, integrated with Tavily + DuckDuckGo for grounded, up-to-date responses.
+
 ● Added production observability: LangSmith tracing, structured logging, and in-process latency/error metrics for debugging and workflow evaluation. 
+
 ● Deployed via Docker + Render Blueprint with health checks and optimizations suitable for free-tier, remote-accessible hosting. 
 
 🔗 GitHub: https://github.com/TowhidAhmedd/multi-agent-AI-Orchestrator/tree/main
+
 🔗 Live Demo: https://multi-agent-ai-system-frontend-with.onrender.com 
 
+
 ## 🔹 Multimodal RAG — Python, FastAPI, Streamlit, Pinecone, Groq, Llama 3.3, Faster-Whisper, RAG, Vector Search, LangSmith, Docker, REST API, Async Programming, Caching
+
 ● Architected production-grade multimodal RAG system (PDF, audio, video) with Faster-Whisper transcription and semantic chunking; implemented two-stage retrieval (Pinecone + Cross-Encoder re-ranking), reducing latency by 60% and improving relevance scores by 25%. 
+
 ● Built async FastAPI backend with Groq LLM integration (3 model options), TTL-based query caching, and structured error handling; achieved <2s P95 latency on cached queries with 100% test pass rate (76 unit tests). 
+
 ● Deployed full-stack application on Render with Docker containerization (FastAPI + Streamlit), automated CI/CD via GitHub, and LangSmith observability for production monitoring. 
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Multimodel-Rag-With-LLMOps/tree/main
 
+
 ## 🔹 Clinical RAG Assistant  —  Python, FastAPI, LangGraph, RAG,  Pinecone, LLM Guardrails, Tavily, Streamlit, LangSmith, Docker, JWT
-● Architected production-grade medical education AI: 4-agent LangGraph workflow (Router → Safety → Retrieval → Answer) with automatic fallback between WEB_ONLY, DOC_ONLY, and HYBRID search modes. 
-● Implemented RAG pipeline: PDF/DOCX/TXT ingestion → BAAI/bge embeddings → Pinecone retrieval → FlashRank re-ranking → page-level citations with domain whitelist (NIH, CDC, WHO, Mayo Clinic). 
-● **Engineered industry-leading 4-layer medical safety system: (1) regex input filter, (2) LLM safety agent, (3) retrieval threshold guard, (4) output regex filter—blocking diagnosis, dosage, and injection attacks.** 
-● Built secure FastAPI backend with JWT auth, API key validation, SlowAPI rate limiting, Pydantic v2 validation, and multipart file enforcement. 
-● Delivered Streamlit frontend with real-time health checks, document management UI, confidence-scored citations, and graceful error handling. 
+
+● Architected production-grade medical education AI: 4-agent LangGraph workflow (Router → Safety → Retrieval → Answer) with automatic fallback between WEB_ONLY, DOC_ONLY, and HYBRID search modes.
+
+● Implemented RAG pipeline: PDF/DOCX/TXT ingestion → BAAI/bge embeddings → Pinecone retrieval → FlashRank re-ranking → page-level citations with domain whitelist (NIH, CDC, WHO, Mayo Clinic).
+
+● **Engineered industry-leading 4-layer medical safety system: (1) regex input filter, (2) LLM safety agent, (3) retrieval threshold guard, (4) output regex filter—blocking diagnosis, dosage, and injection attacks.**
+
+● Built secure FastAPI backend with JWT auth, API key validation, SlowAPI rate limiting, Pydantic v2 validation, and multipart file enforcement.
+
+● Delivered Streamlit frontend with real-time health checks, document management UI, confidence-scored citations, and graceful error handling.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Clinical-AI/tree/main
 
+
 ## 🔹 Advanced RAG System — Python, LangChain, LLM APIs, Vector Database, Streamlit, RAG
+
 ● Designed an LLM-based retrieval system and AI research assistant for semantic document search and QA over ML research papers 
-● Built an end-to-end retrieval-augmented generation pipeline covering PDF ingestion, intelligent chunking, embedding generation, Weaviate vector search, and LLM-based response generation 
+
+● Built an end-to-end retrieval-augmented generation pipeline covering PDF ingestion, intelligent chunking, embedding generation, Weaviate vector search, and LLM-based response generation.
 ● Designed a modular architecture separating ingestion, retrieval, LLM orchestration, and UI layers with context-grounded responses to improve answer reliability and reduce hallucinations.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant/tree/main
@@ -115,19 +132,25 @@ I believe in learning by building real-world projects and continuously improving
 
 ## 🔹 Autonomous Deep Agent Platform - Python FastAPI LangGraph LangChain Neo4j Pinecone Groq Streamlit Docker
 
-● Architected an 8-node LangGraph agent graph with conditional routing, retry loops, and human-in-the-loop checkpoints that autonomously plans, researches, retrieves, executes, and self-verifies answers to complex multi-step goals. 
+● Architected an 8-node LangGraph agent graph with conditional routing, retry loops, and human-in-the-loop checkpoints that autonomously plans, researches, retrieves, executes, and self-verifies answers to complex multi-step goals.
+
 ● Built world-class hybrid RAG pipeline combining Pinecone semantic vector search with Neo4j graph traversal—extracting entities/relationships via LLM, storing as graph nodes/edges, then fusing both retrieval paths at query time for relationship-aware intelligence.
-● Implemented Verifier Agent scoring answers on accuracy, completeness, relevance, and clarity; detects hallucinations by comparing claims against grounding context and triggers automated retry loops when quality thresholds unmet. 
-● Shipped production infrastructure: multi-stage Docker, Docker Compose orchestrating FastAPI + Streamlit + Neo4j, LangSmith observability, multi-provider LLM support (Groq, OpenAI, Gemini), and 93 passing tests. 
+
+● Implemented Verifier Agent scoring answers on accuracy, completeness, relevance, and clarity; detects hallucinations by comparing claims against grounding context and triggers automated retry loops when quality thresholds unmet.
+
+● Shipped production infrastructure: multi-stage Docker, Docker Compose orchestrating FastAPI + Streamlit + Neo4j, LangSmith observability, multi-provider LLM support (Groq, OpenAI, Gemini), and 93 passing tests.
 
 🔗 GitHub: https://github.com/TowhidAhmedd/agent-deepagent/tree/main
 
 
 ## 🔹 Human-in-the-Loop AI Email Reply Agent - LangGraph · FastAPI · Groq (LLaMA 3.3-70B) · Gmail API · ChromaDB · Streamlit · Docker
 
-● Architected a 7-node LangGraph stateful pipeline (fetch → classify → context retrieval → draft → safety review → human approval → send) with hard interrupt/resume mechanism enforcing zero auto-sends—no email leaves without explicit human approval. 
-● Engineered multi-layer HITL safety across three independent enforcement points (routing edge, node-level gate, API validation) so no single failure mode can bypass human control; implemented LLM-powered safety review agent scoring drafts for hallucinations, incorrect promises, sensitive data leakage, and aggressive language. 
-● Built ChromaDB vector memory system retrieving semantically similar past threads, approved drafts, and company knowledge to generate context-aware, personalized replies using cosine similarity search. 
+● Architected a 7-node LangGraph stateful pipeline (fetch → classify → context retrieval → draft → safety review → human approval → send) with hard interrupt/resume mechanism enforcing zero auto-sends—no email leaves without explicit human approval.
+
+● Engineered multi-layer HITL safety across three independent enforcement points (routing edge, node-level gate, API validation) so no single failure mode can bypass human control; implemented LLM-powered safety review agent scoring drafts for hallucinations, incorrect promises, sensitive data leakage, and aggressive language.
+
+● Built ChromaDB vector memory system retrieving semantically similar past threads, approved drafts, and company knowledge to generate context-aware, personalized replies using cosine similarity search.
+
 ● Delivered full-stack Streamlit approval dashboard with inline draft editing, one-click approve/reject, risk score display, and agent analytics; deployed via Docker Compose with APScheduler, SQLite persistence, and 80%+ test coverage. 
 
 🔗 GitHub: https://github.com/TowhidAhmedd/agent-email-replay/tree/main

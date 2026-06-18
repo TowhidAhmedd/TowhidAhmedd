@@ -62,21 +62,24 @@ I am Towhid Ahmed, a Generative AI Engineer who independently architects and dep
 
 
 ## 🏆 GitHub Achievements
-- Built multiple end-to-end Machine Learning, Deep Learning, and NLP projects.
-- Developed production-oriented MLOps pipeline with ETL workflows and modular architecture.
-- Consistently worked on AI/ML projects including classification, recommendation systems, and chatbots.
-- Focused on writing clean, scalable, and reusable code for real-world applications.
-- Actively improving skills in Machine Learning, Deep Learning, NLP, and Gen Ai.
-![](https://github-profile-trophy.vercel.app/?username=TowhidAhmedd&theme=dark&no-frame=false&no-bg=true&margin-w=4)
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TowhidAhmedd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=TowhidAhmedd&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TowhidAhmedd&layout=compact&theme=tokyonight&hide_border=true)
+![Trophies](https://github-profile-trophy.vercel.app/?username=TowhidAhmedd&theme=tokyonight&no-frame=true&row=1&column=6)
+
+</div>
+
 
 ## ✍️ Developer Mindset
 I believe in learning by building real-world projects and continuously improving through hands-on experience. I focus on understanding core concepts deeply rather than just using libraries. My goal is to develop production-ready AI systems that solve real problems, with clean, scalable, and maintainable code.
 ![](https://camo.githubusercontent.com/6d596d994c1abc4c2186a8a8ff933496a1f4fa1fa2f59e5fbcdb91e61523f716/68747470733a2f2f71756f7465732d6769746875622d726561646d652e76657263656c2e6170702f6170693f747970653d686f72697a6f6e74616c267468656d653d7261646963616c)
 
 
-<div align="center">
 
-<div align="center">
 
 # 🚀 Featured Projects
 
@@ -218,19 +221,8 @@ I believe in learning by building real-world projects and continuously improving
 
 ---
 
-## 🏆 GitHub Achievements
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TowhidAhmedd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=TowhidAhmedd&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TowhidAhmedd&layout=compact&theme=tokyonight&hide_border=true)
-![Trophies](https://github-profile-trophy.vercel.app/?username=TowhidAhmedd&theme=tokyonight&no-frame=true&row=1&column=6)
-
-</div>
-
-**Highlights**
+## 👉 **Highlights**
 
 - 🚀 Shipped **7+ production-grade, full-stack GenAI systems** end-to-end — from LangGraph agent design through Docker containerization to live Render deployment.
 - ⚡ Cut RAG retrieval latency by **60%** and lifted relevance scores by **25%** through two-stage retrieval (vector search + cross-encoder re-ranking).

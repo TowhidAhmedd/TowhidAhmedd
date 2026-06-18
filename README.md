@@ -28,9 +28,6 @@ I am Towhid Ahmed, a Generative AI Engineer who independently architects and dep
   </a>
 </p>
 
-<p align="center">
-  <b>AI/ML Engineer | Generative AI | Machine Learning | NLP</b>
-</p>
 
 <p align="center">
   <a href="https://towhidahmedcom.vercel.app/" target="_blank">
@@ -39,7 +36,7 @@ I am Towhid Ahmed, a Generative AI Engineer who independently architects and dep
 </p>
 
 <p align="center">
-  🚀 Available for Remote AI/ML Roles | Open to Collaboration
+   🟢 Available for Remote Generative AI Engineer Roles | Open to Collaboration
 </p>
 
 

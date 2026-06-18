@@ -76,6 +76,8 @@ I believe in learning by building real-world projects and continuously improving
 
 <div align="center">
 
+<div align="center">
+
 # 🚀 Featured Projects
 
 *Production-grade Generative AI systems — multi-agent orchestration, RAG pipelines, and full-stack deployment*
@@ -214,5 +216,26 @@ I believe in learning by building real-world projects and continuously improving
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/agent-email-replay/tree/main)
 
+---
 
+## 🏆 GitHub Achievements
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TowhidAhmedd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=TowhidAhmedd&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TowhidAhmedd&layout=compact&theme=tokyonight&hide_border=true)
+![Trophies](https://github-profile-trophy.vercel.app/?username=TowhidAhmedd&theme=tokyonight&no-frame=true&row=1&column=6)
+
+</div>
+
+**Highlights**
+
+- 🚀 Shipped **7+ production-grade, full-stack GenAI systems** end-to-end — from LangGraph agent design through Docker containerization to live Render deployment.
+- ⚡ Cut RAG retrieval latency by **60%** and lifted relevance scores by **25%** through two-stage retrieval (vector search + cross-encoder re-ranking).
+- ✅ Maintained rigorous test discipline across projects: **76, 93, and 263+ passing unit/integration tests**, with **80%+ coverage** on safety-critical pipelines.
+- 🛡️ Engineered a **4-layer medical safety guardrail system** for a clinical AI assistant, blocking diagnosis, dosage, and prompt-injection attacks.
+- 🔧 Diagnosed and resolved production incidents independently — 502 errors from runtime model downloads, OOM crashes from heavy embedding libraries, and Windows-specific dependency conflicts — each documented and fixed without external support.
+- 🔁 Set up **CI/CD pipelines with GitHub Actions** for automated testing and deployment across multiple repositories.
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

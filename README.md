@@ -74,83 +74,145 @@ I believe in learning by building real-world projects and continuously improving
 ![](https://camo.githubusercontent.com/6d596d994c1abc4c2186a8a8ff933496a1f4fa1fa2f59e5fbcdb91e61523f716/68747470733a2f2f71756f7465732d6769746875622d726561646d652e76657263656c2e6170702f6170693f747970653d686f72697a6f6e74616c267468656d653d7261646963616c)
 
 
-# 🔝 Featured Projects
+<div align="center">
 
-## 🔹 Multi-Agent AI System — Python, LangGraph, FastAPI, Pinecone, LangSmith, Docker, Render
+# 🚀 Featured Projects
 
-● Architected a 4-agent LangGraph workflow (Planner, Retrieval, Search, Synthesizer) with production FastAPI backend (/chat, /upload, /health, /metrics) supporting async-safe execution for reliable cloud deployment.
+*Production-grade Generative AI systems — multi-agent orchestration, RAG pipelines, and full-stack deployment*
 
-● Built end-to-end RAG pipeline: document ingestion (PDF/TXT/Markdown) → chunking → Pinecone vector retrieval → citation synthesis, integrated with Tavily + DuckDuckGo for grounded, up-to-date responses.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
-● Added production observability: LangSmith tracing, structured logging, and in-process latency/error metrics for debugging and workflow evaluation. 
+</div>
 
-● Deployed via Docker + Render Blueprint with health checks and optimizations suitable for free-tier, remote-accessible hosting. 
+---
 
-🔗 GitHub: https://github.com/TowhidAhmedd/multi-agent-AI-Orchestrator/tree/main
+## 🔹 Multi-Agent AI System
 
-🔗 Live Demo: https://multi-agent-ai-system-frontend-with.onrender.com 
+**4-agent LangGraph workflow with production RAG backend and observability**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 
-## 🔹 Multimodal RAG — Python, FastAPI, Streamlit, Pinecone, Groq, Llama 3.3, Faster-Whisper, RAG, Vector Search, LangSmith, Docker, REST API, Async Programming, Caching
+- Architected a **4-agent LangGraph workflow** (Planner, Retrieval, Search, Synthesizer) with a production FastAPI backend (`/chat`, `/upload`, `/health`, `/metrics`) supporting async-safe execution for reliable cloud deployment.
+- Built an end-to-end **RAG pipeline**: document ingestion (PDF/TXT/Markdown) → chunking → Pinecone vector retrieval → citation synthesis, integrated with Tavily + DuckDuckGo for grounded, up-to-date responses.
+- Added production observability: **LangSmith tracing**, structured logging, and in-process latency/error metrics for debugging and workflow evaluation.
+- Deployed via **Docker + Render Blueprint** with health checks and optimizations suitable for free-tier, remote-accessible hosting.
 
-● Architected production-grade multimodal RAG system (PDF, audio, video) with Faster-Whisper transcription and semantic chunking; implemented two-stage retrieval (Pinecone + Cross-Encoder re-ranking), reducing latency by 60% and improving relevance scores by 25%. 
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/multi-agent-AI-Orchestrator/tree/main)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://multi-agent-ai-system-frontend-with.onrender.com)
 
-● Built async FastAPI backend with Groq LLM integration (3 model options), TTL-based query caching, and structured error handling; achieved <2s P95 latency on cached queries with 100% test pass rate (76 unit tests). 
+---
 
-● Deployed full-stack application on Render with Docker containerization (FastAPI + Streamlit), automated CI/CD via GitHub, and LangSmith observability for production monitoring. 
+## 🔹 Multimodal RAG
 
-🔗 GitHub: https://github.com/TowhidAhmedd/Multimodel-Rag-With-LLMOps/tree/main
+**Production-grade multimodal (PDF/audio/video) retrieval system with two-stage re-ranking**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+![Llama 3.3](https://img.shields.io/badge/Llama_3.3-0467DF?style=flat-square&logo=meta&logoColor=white)
+![Faster-Whisper](https://img.shields.io/badge/Faster--Whisper-412991?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-## 🔹 Clinical RAG Assistant  —  Python, FastAPI, LangGraph, RAG,  Pinecone, LLM Guardrails, Tavily, Streamlit, LangSmith, Docker, JWT
+- Architected a production-grade **multimodal RAG system** (PDF, audio, video) with Faster-Whisper transcription and semantic chunking; implemented two-stage retrieval (Pinecone + Cross-Encoder re-ranking), **reducing latency by 60%** and **improving relevance scores by 25%**.
+- Built an async FastAPI backend with **Groq LLM integration** (3 model options), TTL-based query caching, and structured error handling; achieved **<2s P95 latency** on cached queries with **100% test pass rate** (76 unit tests).
+- Deployed full-stack application on Render with **Docker containerization** (FastAPI + Streamlit), automated CI/CD via GitHub, and LangSmith observability for production monitoring.
 
-● Architected production-grade medical education AI: 4-agent LangGraph workflow (Router → Safety → Retrieval → Answer) with automatic fallback between WEB_ONLY, DOC_ONLY, and HYBRID search modes.
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/Multimodel-Rag-With-LLMOps/tree/main)
 
-● Implemented RAG pipeline: PDF/DOCX/TXT ingestion → BAAI/bge embeddings → Pinecone retrieval → FlashRank re-ranking → page-level citations with domain whitelist (NIH, CDC, WHO, Mayo Clinic).
+---
 
-● **Engineered industry-leading 4-layer medical safety system: (1) regex input filter, (2) LLM safety agent, (3) retrieval threshold guard, (4) output regex filter—blocking diagnosis, dosage, and injection attacks.**
+## 🔹 Clinical RAG Assistant
 
-● Built secure FastAPI backend with JWT auth, API key validation, SlowAPI rate limiting, Pydantic v2 validation, and multipart file enforcement.
+**Medical education AI with industry-leading 4-layer safety system**
 
-● Delivered Streamlit frontend with real-time health checks, document management UI, confidence-scored citations, and graceful error handling.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![Tavily](https://img.shields.io/badge/Tavily-2E8B57?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
-🔗 GitHub: https://github.com/TowhidAhmedd/Clinical-AI/tree/main
+- Architected a production-grade medical education AI: **4-agent LangGraph workflow** (Router → Safety → Retrieval → Answer) with automatic fallback between `WEB_ONLY`, `DOC_ONLY`, and `HYBRID` search modes.
+- Implemented RAG pipeline: PDF/DOCX/TXT ingestion → BAAI/bge embeddings → Pinecone retrieval → FlashRank re-ranking → page-level citations with a domain whitelist (NIH, CDC, WHO, Mayo Clinic).
+- **Engineered an industry-leading 4-layer medical safety system**: (1) regex input filter, (2) LLM safety agent, (3) retrieval threshold guard, (4) output regex filter — blocking diagnosis, dosage, and injection attacks.
+- Built a secure FastAPI backend with **JWT auth**, API key validation, SlowAPI rate limiting, Pydantic v2 validation, and multipart file enforcement.
+- Delivered a Streamlit frontend with real-time health checks, document management UI, confidence-scored citations, and graceful error handling.
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/Clinical-AI/tree/main)
 
-## 🔹 Advanced RAG System — Python, LangChain, LLM APIs, Vector Database, Streamlit, RAG
+---
 
-● Designed an LLM-based retrieval system and AI research assistant for semantic document search and QA over ML research papers 
+## 🔹 Advanced RAG System
 
-● Built an end-to-end retrieval-augmented generation pipeline covering PDF ingestion, intelligent chunking, embedding generation, Weaviate vector search, and LLM-based response generation.
-● Designed a modular architecture separating ingestion, retrieval, LLM orchestration, and UI layers with context-grounded responses to improve answer reliability and reduce hallucinations.
+**Semantic search and QA assistant over ML research papers**
 
-🔗 GitHub: https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant/tree/main
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Weaviate](https://img.shields.io/badge/Weaviate-2A2E45?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
+- Designed an **LLM-based retrieval system** and AI research assistant for semantic document search and QA over ML research papers.
+- Built an end-to-end **RAG pipeline** covering PDF ingestion, intelligent chunking, embedding generation, Weaviate vector search, and LLM-based response generation.
+- Designed a **modular architecture** separating ingestion, retrieval, LLM orchestration, and UI layers with context-grounded responses to improve answer reliability and reduce hallucinations.
 
-## 🔹 Autonomous Deep Agent Platform - Python FastAPI LangGraph LangChain Neo4j Pinecone Groq Streamlit Docker
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/Advanced_Rag_ML_Research_Assistant/tree/main)
 
-● Architected an 8-node LangGraph agent graph with conditional routing, retry loops, and human-in-the-loop checkpoints that autonomously plans, researches, retrieves, executes, and self-verifies answers to complex multi-step goals.
+---
 
-● Built world-class hybrid RAG pipeline combining Pinecone semantic vector search with Neo4j graph traversal—extracting entities/relationships via LLM, storing as graph nodes/edges, then fusing both retrieval paths at query time for relationship-aware intelligence.
+## 🔹 Autonomous Deep Agent Platform
 
-● Implemented Verifier Agent scoring answers on accuracy, completeness, relevance, and clarity; detects hallucinations by comparing claims against grounding context and triggers automated retry loops when quality thresholds unmet.
+**8-node LangGraph agent with hybrid graph + vector RAG and self-verification**
 
-● Shipped production infrastructure: multi-stage Docker, Docker Compose orchestrating FastAPI + Streamlit + Neo4j, LangSmith observability, multi-provider LLM support (Groq, OpenAI, Gemini), and 93 passing tests.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-🔗 GitHub: https://github.com/TowhidAhmedd/agent-deepagent/tree/main
+- Architected an **8-node LangGraph agent graph** with conditional routing, retry loops, and human-in-the-loop checkpoints that autonomously plans, researches, retrieves, executes, and self-verifies answers to complex multi-step goals.
+- Built a world-class **hybrid RAG pipeline** combining Pinecone semantic vector search with Neo4j graph traversal — extracting entities/relationships via LLM, storing as graph nodes/edges, then fusing both retrieval paths at query time for relationship-aware intelligence.
+- Implemented a **Verifier Agent** scoring answers on accuracy, completeness, relevance, and clarity; detects hallucinations by comparing claims against grounding context and triggers automated retry loops when quality thresholds are unmet.
+- Shipped production infrastructure: multi-stage Docker, Docker Compose orchestrating FastAPI + Streamlit + Neo4j, LangSmith observability, multi-provider LLM support (Groq, OpenAI, Gemini), and **93 passing tests**.
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/agent-deepagent/tree/main)
 
-## 🔹 Human-in-the-Loop AI Email Reply Agent - LangGraph · FastAPI · Groq (LLaMA 3.3-70B) · Gmail API · ChromaDB · Streamlit · Docker
+---
 
-● Architected a 7-node LangGraph stateful pipeline (fetch → classify → context retrieval → draft → safety review → human approval → send) with hard interrupt/resume mechanism enforcing zero auto-sends—no email leaves without explicit human approval.
+## 🔹 Human-in-the-Loop AI Email Reply Agent
 
-● Engineered multi-layer HITL safety across three independent enforcement points (routing edge, node-level gate, API validation) so no single failure mode can bypass human control; implemented LLM-powered safety review agent scoring drafts for hallucinations, incorrect promises, sensitive data leakage, and aggressive language.
+**7-node stateful pipeline with hard interrupt/resume and zero auto-send guarantee**
 
-● Built ChromaDB vector memory system retrieving semantically similar past threads, approved drafts, and company knowledge to generate context-aware, personalized replies using cosine similarity search.
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_Llama_3.3--70B-F55036?style=flat-square)
+![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=flat-square&logo=gmail&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-6A1B9A?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-● Delivered full-stack Streamlit approval dashboard with inline draft editing, one-click approve/reject, risk score display, and agent analytics; deployed via Docker Compose with APScheduler, SQLite persistence, and 80%+ test coverage. 
+- Architected a **7-node LangGraph stateful pipeline** (fetch → classify → context retrieval → draft → safety review → human approval → send) with a hard interrupt/resume mechanism enforcing zero auto-sends — no email leaves without explicit human approval.
+- Engineered **multi-layer HITL safety** across three independent enforcement points (routing edge, node-level gate, API validation) so no single failure mode can bypass human control; implemented an LLM-powered safety review agent scoring drafts for hallucinations, incorrect promises, sensitive data leakage, and aggressive language.
+- Built a **ChromaDB vector memory system** retrieving semantically similar past threads, approved drafts, and company knowledge to generate context-aware, personalized replies using cosine similarity search.
+- Delivered a full-stack Streamlit approval dashboard with inline draft editing, one-click approve/reject, risk score display, and agent analytics; deployed via Docker Compose with APScheduler, SQLite persistence, and **80%+ test coverage**.
 
-🔗 GitHub: https://github.com/TowhidAhmedd/agent-email-replay/tree/main
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TowhidAhmedd/agent-email-replay/tree/main)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

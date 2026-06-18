@@ -75,8 +75,7 @@ I am Towhid Ahmed, a Generative AI Engineer who independently architects and dep
 
 
 ## ✍️ Developer Mindset
-I believe in learning by building real-world projects and continuously improving through hands-on experience. I focus on understanding core concepts deeply rather than just using libraries. My goal is to develop production-ready AI systems that solve real problems, with clean, scalable, and maintainable code.
-
+I focus on building real-world, production-ready AI systems through continuous hands-on development. I prioritize deep understanding of core concepts over superficial library usage, ensuring strong fundamentals in every solution I build. My goal is to design clean, scalable, and maintainable systems that solve meaningful real-world problems.
 
 
 # 🚀 Featured Projects

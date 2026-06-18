@@ -24,7 +24,7 @@ I am Towhid Ahmed, a Generative AI Engineer who independently architects and dep
 
 <p align="center">
   <a href="https://towhidahmedcom.vercel.app/" target="_blank">
-    <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/portpolio_pic.png" width="600" />
+    <img src="https://raw.githubusercontent.com/TowhidAhmedd/TowhidAhmedd/main/my_portfolio_ss.png" width="600" />
   </a>
 </p>
 

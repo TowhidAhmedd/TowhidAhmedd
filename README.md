@@ -11,7 +11,15 @@
 ---
 
 ## 👨‍💻 About Me
-I am Towhid Ahmed, a Generative AI Engineer who independently architects and deploys production-grade intelligent systems. I specialize in building end-to-end LLM applications with a focus on multi-agent orchestration, advanced Retrieval-Augmented Generation (RAG), and LLMOps—from concept to deployment. My approach centers on solving real-world problems through scalable AI: designing sophisticated agent workflows using LangGraph, implementing retrieval systems with vector databases and cross-encoder re-ranking, and ensuring production reliability through observability, testing, and guardrails. I'm actively seeking opportunities to contribute to innovative AI teams where I can help build and ship scalable, intelligent products that make a tangible impact. I thrive in collaborative, fast-paced environments and bring strong systems thinking, 400+ DSA problems solved, and a proven track record of turning ambitious ideas into deployed systems. 
+I am Towhid Ahmed, a Generative AI Engineer focused on building intelligent applications powered by Large Language Models and Agentic AI.
+
+I specialize in developing end-to-end LLM applications, advanced Retrieval-Augmented Generation (RAG) systems, and multi-agent workflows using modern AI frameworks such as LangGraph. My work includes retrieval optimization, vector databases, LLM orchestration, evaluation, observability, and deployment-focused AI engineering.
+
+I enjoy transforming complex ideas into practical AI solutions and continuously expanding my expertise in Generative AI, LLMOps, and scalable AI systems.
+
+Currently seeking entry-level and remote opportunities where I can contribute to building impactful AI products while growing as a Generative AI Engineer.
+
+Strong problem-solving foundation with 400+ DSA problems solved.
 
 
 <!-- <p align="center">
